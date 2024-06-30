@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.964fdded.css",
-    "main.js": "/static/js/main.e7012ed5.js",
+    "main.css": "/static/css/main.7dc8609b.css",
+    "main.js": "/static/js/main.2bb63c33.js",
     "static/js/453.f2441e25.chunk.js": "/static/js/453.f2441e25.chunk.js",
+    "static/media/team-award.jpg": "/static/media/team-award.98c9fdeb80502027b382.jpg",
+    "static/media/rocket-launch.jpg": "/static/media/rocket-launch.37deb8338a9ccb147b74.jpg",
+    "static/media/team-rocket.jpg": "/static/media/team-rocket.bc1734a7452f0892d4fc.jpg",
+    "static/media/payload.jpg": "/static/media/payload.6436fc089139ac11b9d1.jpg",
+    "static/media/r4s2023-team-rocket.jpg": "/static/media/r4s2023-team-rocket.67550198004250f36a12.jpg",
+    "static/media/muaaz-rocket.jpg": "/static/media/muaaz-rocket.97c58c19590c4a27dc82.jpg",
+    "static/media/tarcteam2022.jpg": "/static/media/tarcteam2022.95326429bab6e7c7096e.jpg",
+    "static/media/nasa-logo.svg": "/static/media/nasa-logo.d30e3cd547a682bba78cf1e5e058d924.svg",
     "index.html": "/index.html",
-    "main.964fdded.css.map": "/static/css/main.964fdded.css.map",
-    "main.e7012ed5.js.map": "/static/js/main.e7012ed5.js.map",
+    "main.7dc8609b.css.map": "/static/css/main.7dc8609b.css.map",
+    "main.2bb63c33.js.map": "/static/js/main.2bb63c33.js.map",
     "453.f2441e25.chunk.js.map": "/static/js/453.f2441e25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.964fdded.css",
-    "static/js/main.e7012ed5.js"
+    "static/css/main.7dc8609b.css",
+    "static/js/main.2bb63c33.js"
   ]
 }
