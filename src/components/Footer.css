@@ -1,0 +1,23 @@
+footer {
+    background: black;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px 0;
+}
+
+footer p {
+    color: white;
+    font-size: 1em;
+    margin: 0 20px;
+    padding: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0 20px;
+    padding: 0;
+}

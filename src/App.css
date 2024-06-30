@@ -1,3 +1,10 @@
 .App {
   text-align: center;
+  color: white;
+  cursor: default;
+  font-family: 'Play', sans-serif;
+}
+
+::selection {
+  background: rgba(255, 100, 0, 0.8);
 }

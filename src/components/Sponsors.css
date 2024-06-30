@@ -1,0 +1,7 @@
+.sponsors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(10, 10, 10), rgb(30, 30, 30));
+}

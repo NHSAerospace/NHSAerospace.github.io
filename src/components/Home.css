@@ -1,0 +1,100 @@
+h1 {
+    font-size: 2.5em;
+    font-family: 'AudioWide', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.home .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+    background: linear-gradient(rgb(10, 10, 10), rgb(30, 30, 30));
+}
+
+.rocket {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+}
+
+.introduction {
+    margin: 50px;
+}
+
+button {
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border-radius: 50vmin;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    color: black;
+    transition: 0.5s;
+    border: none;
+}
+
+button:hover {
+    background: rgb(255, 100, 0);
+}
+
+.upcoming {
+    padding: 50px 0;
+    background: linear-gradient(rgb(30, 30, 30), rgb(25, 25, 25), rgb(30, 30, 30));
+}
+
+a {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: white;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: rgb(255, 100, 0);
+}
+
+.nasa {
+    height: 300px;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+    background: linear-gradient(rgb(30, 30, 30), rgb(10, 10, 10));
+}
+
+.slideshow-image {
+    height: 80vh;
+    border-radius: 10px;
+}
+
+.scroll-btn {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.scroll-btn:hover {
+    background: rgb(255, 100, 0);
+}
+
+.slideshow-figure p {
+    font-size: 1.3em;
+    font-family: 'Play', sans-serif;
+    margin: 10px 0;
+    font-weight: 400;
+}
