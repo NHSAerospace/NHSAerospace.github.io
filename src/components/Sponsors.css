@@ -3,5 +3,66 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgb(10, 10, 10), rgb(30, 30, 30));
+    background: linear-gradient(rgb(10, 10, 10), rgb(30, 30, 30), rgb(10, 10, 10));
+    padding: 20px 15vw;
+}
+
+.sponsor-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.sponsor-email input,
+.sponsor-email textarea {
+    padding: 10px;
+    margin: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 750px;
+    font-family: 'Play', sans-serif;
+    font-size: 1.2em;
+    background-color: rgb(50, 50, 50);
+    transition: 0.2s;
+    color: white;
+}
+
+.sponsor-email input::placeholder,
+.sponsor-email textarea::placeholder {
+    color: rgb(150, 150, 150);
+}
+
+.sponsor-email input:hover,
+.sponsor-email textarea:hover {
+    box-shadow: 0 0 10px 5px rgba(255, 100, 0, 0.5);
+}
+
+.sponsor-email input:focus,
+.sponsor-email textarea:focus {
+    box-shadow: 0 0 10px 5px rgba(255, 100, 0, 1);
+}
+
+.sponsor-email textarea {
+    resize: vertical;
+    min-height: 200px;
+}
+
+.sponsor-email textarea::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sponsor-email textarea::-webkit-scrollbar-corner {
+    background: transparent;
+    border: none;
+}
+
+.sponsor-email .send {
+    cursor: pointer;
+}
+
+.sponsor-email .send:hover {
+    background-color: rgb(255, 100, 0);
 }
