@@ -20,7 +20,7 @@ const Sponsors = () => {
   return (
     <div className='sponsors'>
       <h1>Sponsors</h1>
-      <p>To embark on endevours like the NASA Student Launch Initiative and Rockets For Schools, our club depends on funding from our sponsors. (Add some information on what a company will gain by sponsoring us, like putting their logo on our rocket and t-shirts). Fill out the form below to become a sponsor of the Northville Aerospace Club today!</p>
+      <p>To embark on endevours like the NASA Student Launch Initiative and Rockets For Schools, our club depends on funding from our sponsors. All sponsors will have their company logo displayed on our rockets, website, and team T-shirts. Sponsors will also be featured in our NASA SLI proposal. If you would like to help fund our endevours and contribute to the next generation of aerospace engineers, fill out the form below to become a sponsor of the Northville Aerospace Club today!</p>
       <form onSubmit={sendEmail} className='sponsor-email'>
         <h1>Become a Sponsor</h1>
         <input type='text' name='user_name' placeholder='Your Name' required />

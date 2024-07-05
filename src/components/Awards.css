@@ -3,7 +3,8 @@
     flex-direction: column;
     text-align: center;
     justify-content: space-evenly;
-    background: linear-gradient(rgb(10, 10, 10), rgb(30, 30, 30), rgb(10, 10, 10));
+    background: url('../images/space-background.jpg');
+    background-size: cover;
     height: 90vh;
     padding: 0;
 }
