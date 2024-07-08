@@ -49,11 +49,21 @@ button {
 
 button:hover {
     background: rgb(255, 100, 0);
+    box-shadow: 0 0 10px 5px rgba(255, 100, 0, 0.5);
+}
+
+.gallery-div {
+    background: linear-gradient(rgb(30, 30, 30), rgb(10, 10, 10));
+}
+
+.accomplishments {
+    padding: 0;
+    background: rgb(10, 10, 10);
 }
 
 .upcoming {
     padding: 50px 0;
-    background: linear-gradient(rgb(30, 30, 30), rgb(20, 20, 20), rgb(30, 30, 30));
+    background: linear-gradient(rgb(30, 30, 30), rgb(10, 10, 10));
 }
 
 a {
@@ -74,5 +84,5 @@ a:hover {
 
 .contact-us {
     padding: 50px 0;
-    background: linear-gradient(rgb(30, 30, 30), rgb(10, 10, 10));
+    background: linear-gradient(rgb(10, 10, 10), rgb(30, 30, 30), rgb(10, 10, 10));
 }

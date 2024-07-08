@@ -22,6 +22,10 @@ const Home = () => {
                 <p>Want to support our team? Become a sponsor today!</p>
                 <button onClick={() => window.location.href = '#sponsors'}>Sponsor Us</button>
             </div>
+            <Gallery/>
+            <div className='accomplishments'>
+                <button onClick={() => window.location.href = '#awards'}>Our Accomplishments</button>
+            </div>
             <div className='contact-us'>
                 <h1>Contact Us</h1>
                 <p>For more information, contact us at <a href='mailto:nhsaerospace@gmail.com'>nhsaerospace@gmail.com</a>.</p>
