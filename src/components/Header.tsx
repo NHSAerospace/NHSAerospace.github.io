@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <div className='header'>
-        <a href='#' className='title'>NHS Aerospace</a>
+        <a href='#' className='title'>Northville Aerospace</a>
         <a href='#about'>About</a>
         <a href='#sponsors'>Sponsors</a>
         <a href='#awards'>Awards</a>
