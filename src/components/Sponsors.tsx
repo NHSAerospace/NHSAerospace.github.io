@@ -30,7 +30,7 @@ const Sponsors = () => {
         <input type='submit' value='Send' className='send' />
       </form>
       <p>{emailStatus}</p>
-      <p>Email <a href='mailto:nhsaerospace@gmail.com'>nhsaerospace@gmail.com</a> or call <a href='tel:+2483785307'>(248) 378-5307</a> for additional information.</p>
+      <p>Email <a href='mailto:nhsaerospace@gmail.com'>nhsaerospace@gmail.com</a> for additional information.</p>
     </div>
   );
 }
