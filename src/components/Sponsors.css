@@ -7,6 +7,22 @@
     padding: 20px 15vw;
 }
 
+.sponsor-logos {
+    height: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
 .sponsor-email {
     display: flex;
     flex-direction: column;
