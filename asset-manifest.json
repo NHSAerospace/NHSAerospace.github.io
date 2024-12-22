@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.284c8810.css",
-    "main.js": "/static/js/main.09cef09d.js",
+    "main.js": "/static/js/main.02c2290c.js",
     "static/js/453.39514fb5.chunk.js": "/static/js/453.39514fb5.chunk.js",
     "static/media/img1.jpg": "/static/media/img1.b39ddbafd8967007d4fc.jpg",
     "static/media/team-award.jpg": "/static/media/team-award.98c9fdeb80502027b382.jpg",
@@ -35,18 +35,18 @@
     "static/media/arjun.jpg": "/static/media/arjun.4e5a718f0ae2586febc6.jpg",
     "static/media/mrbrown.jpg": "/static/media/mrbrown.934d04b735f5c90ec024.jpg",
     "static/media/matthew.jpg": "/static/media/matthew.da1aa109b920a68ec351.jpg",
-    "static/media/NEF_Logo.png": "/static/media/NEF_Logo.ac750c5205051fe1431b.png",
     "static/media/MICV2CB.png": "/static/media/MICV2CB.6e9a778039e24b775d83.png",
     "static/media/veronica.jpg": "/static/media/veronica.40f86c6997cea806e563.jpg",
     "static/media/muaaz.jpg": "/static/media/muaaz.196e53793258f859d20b.jpg",
+    "static/media/NEF_Logo.png": "/static/media/NEF_Logo.34f6efbde7809095830f.png",
     "static/media/nasa-logo.svg": "/static/media/nasa-logo.d30e3cd547a682bba78cf1e5e058d924.svg",
     "index.html": "/index.html",
     "main.284c8810.css.map": "/static/css/main.284c8810.css.map",
-    "main.09cef09d.js.map": "/static/js/main.09cef09d.js.map",
+    "main.02c2290c.js.map": "/static/js/main.02c2290c.js.map",
     "453.39514fb5.chunk.js.map": "/static/js/453.39514fb5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.284c8810.css",
-    "static/js/main.09cef09d.js"
+    "static/js/main.02c2290c.js"
   ]
 }
