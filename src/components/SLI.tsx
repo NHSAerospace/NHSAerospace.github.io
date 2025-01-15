@@ -5,9 +5,9 @@ function SLI() {
     const [activeReport, setActiveReport] = useState<string | null>(null);
 
     const reports = [
-        { id: 'proposal', title: 'Proposal', path: 'NorthvilleHighSchool-2025-Proposal.pdf' },
-        { id: 'pdr', title: 'Preliminary Design Review (PDR)', path: 'Northville High School - 2025 - PDR - Report .pdf' },
-        { id: 'cdr', title: 'Critical Design Review (CDR)', path: 'Northville High School - 2025 - CDR - Report.pdf' },
+        { id: 'proposal', title: 'Proposal', path: 'https://drive.google.com/file/d/15cRX-H4RT_aDHTheD_fYyB0oSqpWYzO2/view?usp=sharing' },
+        { id: 'pdr', title: 'Preliminary Design Review (PDR)', path: 'https://drive.google.com/file/d/1TSZMuM2gz2MS1TH4G85bLp45yO-BkG11/view?usp=sharing' },
+        { id: 'cdr', title: 'Critical Design Review (CDR)', path: 'https://drive.google.com/file/d/1d9Mi079z_o7RtAr-56sEpImLsJ-ZPkBe/view?usp=sharing' },
     ];
 
     const toggleReport = (reportId: string) => {
