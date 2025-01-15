@@ -17,7 +17,7 @@ const Home = () => {
             </div>
             <div className='upcoming'>
                 <h1>Upcoming Events</h1>
-                <p>Our club is currently preparing for the <a href='https://www.nasa.gov/learning-resources/nasa-student-launch/' target='_blank'>NASA Student Launch Initiative</a>.</p>
+                <p>Our club is currently competing in the <a href='#nasasli'>NASA Student Launch Initiative</a>.</p>
                 <img src={nasa} className='nasa' />
                 <p>Want to support our team? Become a sponsor today!</p>
                 <button onClick={() => window.location.href = '#sponsors'}>Sponsor Us</button>

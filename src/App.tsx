@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
 import Sponsors from './components/Sponsors';
+import SLI from './components/SLI';
 import Awards from './components/Awards';
 import Gallery from './components/Gallery';
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/sponsors' element={<Sponsors />} />
+        <Route path='/nasasli' element={<SLI />} />
         <Route path='/awards' element={<Awards />} />
         <Route path='/gallery'element={<Gallery />} />
       </Routes>

@@ -4,6 +4,6 @@
     text-align: center;
     justify-content: space-evenly;
     background: linear-gradient(rgb(10, 10, 10), rgb(30, 30, 30), rgb(10, 10, 10));
-    min-height: 90vh;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
     padding: 0;
 }

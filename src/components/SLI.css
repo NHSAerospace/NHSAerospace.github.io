@@ -1,0 +1,156 @@
+.sli {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(rgb(10, 10, 10), rgb(30, 30, 30), rgb(10, 10, 10));
+    padding: 0 15vw;
+    margin: 0;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    gap: 2rem;
+}
+
+.sli h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.sli-intro {
+    color: #fff;
+    max-width: 800px;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0;
+}
+
+.sli-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 4rem;
+    margin: 2rem 0;
+}
+
+.sli-reports {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    width: 100%;
+}
+
+.sli-image {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.nasa-link {
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border-radius: 50vmin;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.nasa-link:hover {
+    color: black;
+    background: rgb(255, 100, 0);
+    box-shadow: 0 0 10px 5px rgba(255, 100, 0, 0.5);
+}
+
+.sli-reports h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.report-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.report-button {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.report-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.report-button.active {
+    background: rgba(255, 100, 0, 0.3);
+}
+
+.report-button p {
+    margin: 0;
+}
+
+.pdf-viewer {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+.pdf-viewer.open {
+    height: 800px;
+    margin-top: 1rem;
+}
+
+.pdf-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    background: white;
+}
+
+.report-buttons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.open-new-tab {
+    font-family: 'Play', sans-serif;
+    font-size: 0.9em;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.open-new-tab:hover {
+    background: rgba(255, 100, 0, 0.3);
+    box-shadow: 0 0 5px rgba(255, 100, 0, 0.3);
+}
