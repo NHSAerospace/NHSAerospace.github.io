@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import "./SLI.css"
 
+const getDriveViewerUrl = (url: string) => {
+    const fileIdMatch = url.match(/[-\w]{25,}/);
+    return fileIdMatch ? `https://drive.google.com/file/d/${fileIdMatch[0]}/preview` : url;
+};
+
 function SLI() {
     const [activeReport, setActiveReport] = useState<string | null>(null);
 
@@ -42,7 +47,7 @@ function SLI() {
                                 {activeReport === report.id && (
                                     <iframe
                                         className="pdf-frame"
-                                        src={report.path}
+                                        src={getDriveViewerUrl(report.path)}
                                         title={report.title}
                                     />
                                 )}
