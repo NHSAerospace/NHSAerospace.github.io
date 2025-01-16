@@ -1,13 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.035aef00.css",
-    "main.js": "/static/js/main.6ec30b3b.js",
-    "static/js/453.39514fb5.chunk.js": "/static/js/453.39514fb5.chunk.js",
+    "main.js": "/static/js/main.12d3c31a.js",
+    "static/js/453.6f8ed886.chunk.js": "/static/js/453.6f8ed886.chunk.js",
     "static/media/img1.jpg": "/static/media/img1.b39ddbafd8967007d4fc.jpg",
+    "static/media/img28.jpg": "/static/media/img28.700a746395efa99bf57b.jpg",
+    "static/media/img24.jpg": "/static/media/img24.459a6fb4dd66d7d8fe88.jpg",
     "static/media/team-award.jpg": "/static/media/team-award.98c9fdeb80502027b382.jpg",
+    "static/media/img26.jpg": "/static/media/img26.5488778c18e38540ed27.jpg",
+    "static/media/img29.jpg": "/static/media/img29.fa6aef1e453c9d7cc231.jpg",
+    "static/media/img25.jpg": "/static/media/img25.35ca686d5e5e8ba89ff7.jpg",
+    "static/media/img23.jpg": "/static/media/img23.f5e9648151667d5b83d0.jpg",
+    "static/media/img27.jpg": "/static/media/img27.d4d79cccdf4906a23226.jpg",
+    "static/media/img22.jpg": "/static/media/img22.7e3f8f536d425ddc8c38.jpg",
     "static/media/rocket-launch.jpg": "/static/media/rocket-launch.37deb8338a9ccb147b74.jpg",
     "static/media/team-rocket.jpg": "/static/media/team-rocket.bc1734a7452f0892d4fc.jpg",
     "static/media/img17.jpg": "/static/media/img17.4c668e571e3dee7e2010.jpg",
+    "static/media/img21.jpg": "/static/media/img21.14a2862cb6d831cda223.jpg",
     "static/media/payload.jpg": "/static/media/payload.6436fc089139ac11b9d1.jpg",
     "static/media/img16.jpg": "/static/media/img16.27eefc41c335f40cd905.jpg",
     "static/media/img15.jpg": "/static/media/img15.ad775d15f4e0bcf70d1e.jpg",
@@ -23,8 +32,11 @@
     "static/media/img13.jpg": "/static/media/img13.b9dfab6b4d4b81551056.jpg",
     "static/media/img6.jpg": "/static/media/img6.73071291ecffe9c796f3.jpg",
     "static/media/img5.jpg": "/static/media/img5.163942edf58f16bc83cd.jpg",
+    "static/media/img30.jpg": "/static/media/img30.77547e7409baac2f83b3.jpg",
     "static/media/img2.jpg": "/static/media/img2.85ad0230c8e7a134020f.jpg",
     "static/media/Evigia_Logo.png": "/static/media/Evigia_Logo.3c51a6824414edbdee08.png",
+    "static/media/img19.jpg": "/static/media/img19.706d154f3326de6d8125.jpg",
+    "static/media/img20.jpg": "/static/media/img20.099acd99402cc37a381c.jpg",
     "static/media/reyan.jpg": "/static/media/reyan.21b59bde7d4eb2874999.jpg",
     "static/media/mrskrebs.jpg": "/static/media/mrskrebs.a5d70b8cdc9468fe10b5.jpg",
     "static/media/r4s2023-team-rocket.jpg": "/static/media/r4s2023-team-rocket.67550198004250f36a12.jpg",
@@ -42,11 +54,11 @@
     "static/media/nasa-logo.svg": "/static/media/nasa-logo.d30e3cd547a682bba78cf1e5e058d924.svg",
     "index.html": "/index.html",
     "main.035aef00.css.map": "/static/css/main.035aef00.css.map",
-    "main.6ec30b3b.js.map": "/static/js/main.6ec30b3b.js.map",
-    "453.39514fb5.chunk.js.map": "/static/js/453.39514fb5.chunk.js.map"
+    "main.12d3c31a.js.map": "/static/js/main.12d3c31a.js.map",
+    "453.6f8ed886.chunk.js.map": "/static/js/453.6f8ed886.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.035aef00.css",
-    "static/js/main.6ec30b3b.js"
+    "static/js/main.12d3c31a.js"
   ]
 }
