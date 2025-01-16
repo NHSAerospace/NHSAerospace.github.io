@@ -25,7 +25,18 @@ import img14 from '../images/img14.jpg';
 import img15 from '../images/img15.jpg';
 import img16 from '../images/img16.jpg';
 import img17 from '../images/img17.jpg';
-
+import img19 from '../images/img19.jpg';
+import img20 from '../images/img20.jpg';
+import img21 from '../images/img21.jpg';
+import img22 from '../images/img22.jpg';
+import img23 from '../images/img23.jpg';
+import img24 from '../images/img24.jpg';
+import img25 from '../images/img25.jpg';
+import img26 from '../images/img26.jpg';
+import img27 from '../images/img27.jpg';
+import img28 from '../images/img28.jpg';
+import img29 from '../images/img29.jpg';
+import img30 from '../images/img30.jpg';
 
 const images = [
     { src: teamRocket, caption: '2024 Rockets For Schools Team' },
@@ -52,8 +63,19 @@ const images = [
     { src: img15, caption: '' },
     { src: img16, caption: '' },
     { src: img17, caption: '' },
+    { src: img19, caption: '' },
+    { src: img20, caption: '' },
+    { src: img21, caption: '' },
+    { src: img22, caption: '' },
+    { src: img23, caption: '' },
+    { src: img24, caption: '' },
+    { src: img25, caption: '' },
+    { src: img26, caption: '' },
+    { src: img27, caption: '' },
+    { src: img28, caption: '' },
+    { src: img29, caption: '' },
+    { src: img30, caption: '' },
 ];
-
 
 const Gallery = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
