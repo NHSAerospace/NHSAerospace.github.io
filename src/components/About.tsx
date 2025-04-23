@@ -1,16 +1,7 @@
 import React from 'react';
 import './About.css';
 import logo from '../images/nhsaerospace-logo.png';
-
-import reyan from '../images/reyan.jpg';
-import naoki from '../images/naoki.jpg';
-import arjun from '../images/arjun.jpg';
-import muaaz from '../images/muaaz.jpg';
-import henry from '../images/henry.jpg';
-import veronica from '../images/veronica.jpg';
-import matthew from '../images/matthew.jpg';
-import mrbrown from '../images/mrbrown.jpg';
-import mrskrebs from '../images/mrskrebs.jpg';
+import teamPhoto from '../images/Northville High School - 2025 - Team Photo.jpg';
 
 const About = () => {
     return (
@@ -33,77 +24,10 @@ const About = () => {
             </div>
             <div className='team'>
                 <h1>Our Team</h1>
-                <div className='team-row'>
-                    <div className='member'>
-                        <img src={reyan} alt='Reyan Ahmad' />
-                        <div>
-                            <h2>Reyan</h2>
-                            <h2>Ahmad</h2>
-                            <p>President</p>
-                        </div>                        
-                    </div>
-                    <div className='member'>
-                        <img src={naoki} alt='Naoki Matsumoto' />
-                        <div>
-                            <h2>Naoki</h2>
-                            <h2>Matsumoto</h2>
-                            <p>President</p>
-                        </div>
-                    </div>
-                    <div className='member'>
-                        <img src={arjun} alt='Arjun Srinivasan' />
-                        <div>
-                            <h2>Arjun</h2>
-                            <h2>Srinivasan</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className='team-row'>
-                    <div className='member'>
-                        <img src={muaaz} alt='Muaaz Ahmed' />
-                        <div>
-                            <h2>Muaaz</h2>
-                            <h2>Ahmed</h2>
-                        </div>
-                    </div>
-                    <div className='member'>
-                        <img src={henry} alt='Henry Roberts' />
-                        <div>
-                            <h2>Henry</h2>
-                            <h2>Roberts</h2>
-                        </div>
-                    </div>
-                    <div className='member'>
-                        <img src={veronica} alt='Veronica Wu' />
-                        <div>
-                            <h2>Veronica</h2>
-                            <h2>Wu</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className='team-row'>
-                    <div className='member'>
-                        <img src={matthew} alt='Matthew McClure' />
-                        <div>
-                            <h2>Matthew</h2>
-                            <h2>McClure</h2>
-                        </div>
-                    </div>
-                    <div className='member'>
-                        <img src={mrbrown} alt='Andrew Brown' />
-                        <div>
-                            <h2>Andrew</h2>
-                            <h2>Brown</h2>
-                            <p>NAR/TRA Mentor</p>
-                        </div>
-                    </div>
-                    <div className='member'>
-                        <img src={mrskrebs} alt='Patricia Krebs' />
-                        <div>
-                            <h2>Patricia</h2>
-                            <h2>Krebs</h2>
-                            <p>Club Sponsor</p>
-                        </div>
+                <div className='team-photo-container'>
+                    <img src={teamPhoto} alt='Northville High School Aerospace Team 2025' className='team-photo' />
+                    <div className='team-photo-caption'>
+                        <p>Northville High School Aerospace Team - 2025</p>
                     </div>
                 </div>
             </div>
