@@ -13,6 +13,8 @@ function SLI() {
         { id: 'proposal', title: 'Proposal', path: 'https://drive.google.com/file/d/15cRX-H4RT_aDHTheD_fYyB0oSqpWYzO2/view?usp=sharing' },
         { id: 'pdr', title: 'Preliminary Design Review (PDR)', path: 'https://drive.google.com/file/d/1TSZMuM2gz2MS1TH4G85bLp45yO-BkG11/view?usp=sharing' },
         { id: 'cdr', title: 'Critical Design Review (CDR)', path: 'https://drive.google.com/file/d/1d9Mi079z_o7RtAr-56sEpImLsJ-ZPkBe/view?usp=sharing' },
+        { id: 'frr', title: 'Flight Readiness Review (FRR)', path: 'https://drive.google.com/file/d/1m4TrusikiMrckmfX8vAhVfK6qPHmrP_y/view?usp=sharing' },
+        { id: 'addendum', title: 'FRR Addendum', path: 'https://drive.google.com/file/d/1iAkEf_qrkyNy3JjKDw5Ln2dCMmvldWHj/view?usp=sharing' },
     ];
 
     const toggleReport = (reportId: string) => {

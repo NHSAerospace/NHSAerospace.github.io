@@ -37,8 +37,49 @@ import img27 from '../images/img27.jpg';
 import img28 from '../images/img28.jpg';
 import img29 from '../images/img29.jpg';
 import img30 from '../images/img30.jpg';
+import sli_ab_6 from '../images/sli_ab_6.jpg';
+import img20250406_091838 from '../images/20250406_091838.jpg';
+import img20250406_104051 from '../images/20250406_104051.jpg';
+import img20250406_104437 from '../images/20250406_104437.jpg';
+import img20250406_110027 from '../images/20250406_110027.jpg';
+import imgIMG_8630 from '../images/IMG_8630.jpg';
+import imgIMG_8632 from '../images/IMG_8632.jpg';
+import imgIMG_9148 from '../images/IMG_9148.jpg';
+import imgIMG_9151 from '../images/IMG_9151.jpg';
+import imgNM_1 from '../images/NM_1.jpg';
+import imgNM_fullscale_recovery from '../images/NM_fullscale_recovery.jpg';
+import imgNM_fullscale1 from '../images/NM_fullscale1.jpg';
+import imgNM_fullscale2 from '../images/NM_fullscale2.jpg';
+import imgNM2 from '../images/NM2.jpg';
+import sli_ab_5 from '../images/sli_ab_5.jpg';
+import sli_ab_8 from '../images/sli_ab_8.jpg';
+import sli_ab_9 from '../images/sli_ab_9.jpg';
 
 const images = [
+    { src: sli_ab_6, caption: '' },
+    { src: img20250406_091838, caption: '' },
+    { src: img20250406_104051, caption: '' },
+    { src: img20250406_104437, caption: '' },
+    { src: img20250406_110027, caption: '' },
+    { src: imgIMG_8630, caption: '' },
+    { src: imgIMG_8632, caption: '' },
+    { src: imgIMG_9148, caption: '' },
+    { src: imgIMG_9151, caption: '' },
+    { src: imgNM_1, caption: '' },
+    { src: imgNM_fullscale_recovery, caption: '' },
+    { src: imgNM_fullscale1, caption: '' },
+    { src: imgNM_fullscale2, caption: '' },
+    { src: imgNM2, caption: '' },
+    { src: sli_ab_5, caption: '' },
+    { src: sli_ab_8, caption: '' },
+    { src: sli_ab_9, caption: '' },
+    { src: img30, caption: '' },
+    { src: img29, caption: '' },
+    { src: img28, caption: '' },
+    { src: img27, caption: '' },
+    { src: img26, caption: '' },
+    { src: img25, caption: '' },
+    { src: img24, caption: '' },
     { src: teamRocket, caption: '2024 Rockets For Schools Team' },
     { src: teamAward, caption: '2024 Team Places 2nd at Rockets For Schools Competition' },
     { src: rocketLaunch, caption: '2024 Rockets For Schools Launch' },
@@ -68,13 +109,6 @@ const images = [
     { src: img21, caption: '' },
     { src: img22, caption: '' },
     { src: img23, caption: '' },
-    { src: img24, caption: '' },
-    { src: img25, caption: '' },
-    { src: img26, caption: '' },
-    { src: img27, caption: '' },
-    { src: img28, caption: '' },
-    { src: img29, caption: '' },
-    { src: img30, caption: '' },
 ];
 
 const Gallery = () => {
